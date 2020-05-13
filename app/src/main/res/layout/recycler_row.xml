@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recyclerview_row_location_text"
+        android:layout_width="304dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="14dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="yorum"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerview_row_imageview"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_conversion_absoluteHeight="42dp"
+        tools:layout_conversion_absoluteWidth="398dp" />
+
+    <TextView
+        android:id="@+id/recyclerview_row_useremail_text"
+        android:layout_width="281dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="21dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="useremail text"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        tools:layout_conversion_absoluteHeight="33dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+    <ImageView
+        android:id="@+id/recyclerview_row_imageview"
+        android:layout_width="378dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_conversion_absoluteHeight="250dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+    <TextView
+        android:id="@+id/recyclerview_row_comment_text"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="18dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="comment text"
+        android:textColor="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview_row_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_conversion_absoluteHeight="43dp"
+        tools:layout_conversion_absoluteWidth="398dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/recyclerview_row_comment_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recyclerview_row_comment_text"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="20dp"
+        android:text="Kullanıcı : "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview_row_comment_text"
+        app:layout_constraintEnd_toStartOf="@+id/recyclerview_row_useremail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="74dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="1dp"
+        android:text="Yorum:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/recyclerview_row_location_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerview_row_imageview" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="341dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/line" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

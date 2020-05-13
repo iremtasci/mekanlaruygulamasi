@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "817182710608",
+    "firebase_url": "https://mekanlaruygulamasi.firebaseio.com",
+    "project_id": "mekanlaruygulamasi",
+    "storage_bucket": "mekanlaruygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817182710608:android:7f0f499ec5d7f9b71aea55",
+        "android_client_info": {
+          "package_name": "com.iremtasci.mekanlaruygulama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817182710608-b0tak6kdkgpg1qc52145dn7agql1cj9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2GuyiNRAuWAPTN90ntfd4s8Mo3MIlmlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817182710608-b0tak6kdkgpg1qc52145dn7agql1cj9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
